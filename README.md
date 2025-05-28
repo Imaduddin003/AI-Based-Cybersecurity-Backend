@@ -1,19 +1,20 @@
 # AI-Based Cybersecurity Threat Detection and Prevention System (Backend)
 
-This is the FastAPI backend for the AI-based cybersecurity system that detects and prevents threats using AI models.
+It uses Machine Learning models to detect and prevent various types of cyber threats.
 
-## 🚀 Features
-- Intrusion Detection
-- Malware Detection
-- Anomaly Detection
-- Phishing Detection
-- Dashboard Data Export (JSON, CSV)
+## 🧠 Modules Included
+- *Intrusion Detection* (UNSW-NB15 dataset)
+- *Malware Detection*
+- *Anomaly Detection*
+- *Phishing Detection*
 
-## 📦 Tech Stack
-- FastAPI
-- Scikit-Learn / AI Models
-- Python
-- Uvicorn
+## ⚙️ Technology Stack
+- *Framework*: FastAPI
+- *Language*: Python
+- *ML Models*: Scikit-learn, Pandas, Joblib
+- *API Docs*: Auto-generated Swagger UI at /docs
+
+
 
 ## 📂 Folder Structure
 
@@ -60,16 +61,15 @@ AI_Cybersecurity_Project/
 }
 
 
-## 🧪 Run Locally
+## 🚀 How to Run
 
 ```bash
+cd AI_Cybersecurity_Project
 uvicorn app.main:app --reload
+🧪 Testing
 
-Open in browser:
-
-API root: http://127.0.0.1:8000
-
-Swagger docs: http://127.0.0.1:8000/docs
+All endpoints can be tested from: 
+http://127.0.0.1:8000/docs
 
 ✨ Author
 
