@@ -25,4 +25,4 @@ app.include_router(anomaly.router, prefix="/anomaly", tags=["Anomaly"])
 app.include_router(phishing.router, prefix="/phishing", tags=["Phishing"])
 app.include_router(dashboard.router, prefix="/dashboard", tags=["Dashboard"])
 app.include_router(history.router, prefix="/export", tags=["Export"])
-app.include_router(alerts.router, prefix="/dashboard", tags=["Dashboard"])  # Alerts also under /dashboard
+app.include_router(alerts.router, prefix="/dashboard", tags=["Dashboard"])
